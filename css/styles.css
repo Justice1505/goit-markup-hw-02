@@ -2,19 +2,17 @@ body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
 }
-ul {
-  list-style: none;
-}
+
 .header {
   background-color: white;
-  display: flex;
-  flex-direction: row;
+  list-style: none;
 }
 .logo1 {
   color: #2196f3;
 }
 .logo {
   color: #000000;
+  text-decoration: none;
 }
 .site-navigation .link {
   color: #212121;
