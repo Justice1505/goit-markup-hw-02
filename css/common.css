@@ -118,19 +118,12 @@ body {
 .under-contacts {
   list-style: none;
 }
-.under-street {
-  color: var(--other-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
 
+.under-street,
 .under-mail,
 .under-phone {
   text-decoration: none;
-  color: var(--under-color);
+  color: var(--other-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
