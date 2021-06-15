@@ -22,6 +22,7 @@ body {
 }
 .logo {
   color: var(--title-color);
+  font-family: var(--secondary-font);
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
@@ -32,6 +33,9 @@ body {
 .site-navigation,
 .contacts {
   list-style: none;
+}
+.nav .link.current {
+  color: var(--accent-color);
 }
 .site-navigation .link {
   color: var(--title-color);
@@ -180,9 +184,18 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.under-contacts .link {
+.link1 {
   text-decoration: none;
   color: var(--other-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.under-contacts .link {
+  text-decoration: none;
+  color: var(--under-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
