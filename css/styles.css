@@ -28,7 +28,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .site-navigation,
 .contacts {
@@ -166,7 +165,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--other-color);
 }
 .under {
@@ -203,7 +201,9 @@ body {
   letter-spacing: 0.03em;
 }
 .under-contacts .link:hover,
-.under-contacts .link:focus {
+.under-contacts .link:focus,
+.link1:hover,
+.link1:focus {
   color: var(--accent-color);
 }
 
