@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto', Raleway, sans-serif;
 }
 /*Силизация шапки страницы*/
-.header {
+.top {
   background-color: var(--other-color);
   list-style: none;
 }
@@ -114,6 +114,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--under-color);
 }
+
 .works-title {
   font-weight: 700;
   font-size: 36px;
@@ -121,6 +122,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+}
+.our-works {
+  list-style: none;
 }
 .team-title {
   font-weight: 700;
